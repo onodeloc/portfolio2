@@ -1,10 +1,16 @@
 import React from "react";
-import "./About.css";
+import "./gen.css";
 
-export default function About() {
-    return (
-        <section id="default">
-            <h1>testing html, css, and react!</h1>
-        </section>
-    );
-}
+const About = () => (
+    <div>
+      <h1 className="home">About me</h1>
+      <p>
+        My name is Cole Beezley. 
+      </p>
+      <p>
+        Welcome to my (in-development) website. 
+      </p>
+    </div>
+  );
+  
+  export default About;
