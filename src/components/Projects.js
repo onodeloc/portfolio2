@@ -11,6 +11,9 @@ const Projects = () => (
         Here are some of the projects in which I'll be listing these skills.
       </p>
       <p>
+      <a href="https://github.com/onodeloc/portfolio2">This website</a>
+      </p>
+      <p>
       <a href="https://github.com/onodeloc/newid">RFID-scanning React Native application</a>
       </p>
       <p>
