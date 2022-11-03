@@ -14,7 +14,7 @@ const Projects = () => (
       <a href="https://github.com/onodeloc/portfolio2">This website</a>
       </p>
       <p>
-      <a href="https://github.com/onodeloc/newid">RFID-scanning React Native application</a>
+      <a href="https://github.com/onodeloc/newid">NFC-scanning React Native application</a>
       </p>
       <p>
       <a href="https://github.com/onodeloc/producerconsumer">Producer-consumer multithreading</a>
