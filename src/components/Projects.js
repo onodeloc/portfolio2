@@ -10,6 +10,15 @@ const Projects = () => (
       <p>
         Here are some of the projects in which I'll be listing these skills.
       </p>
+      <p>
+      <a href="https://github.com/onodeloc/newid">RFID-scanning React Native application</a>
+      </p>
+      <p>
+      <a href="https://github.com/onodeloc/producerconsumer">Producer-consumer multithreading</a>
+      </p>
+      <p>
+      <a href="https://github.com/onodeloc/pagingwithtlb">Page table lookup with TLB caching</a>
+      </p>
     </div>
   );
   

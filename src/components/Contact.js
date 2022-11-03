@@ -10,16 +10,13 @@ const Contact = () => (
       <p>
       </p>
       <p>
-        Github
+      <a href="https://github.com/onodeloc">Github</a>
       </p>
       <p>
-        LinkedIn
+      <a href="https://www.linkedin.com/in/cole-beezley-6853271b5/">LinkedIn</a>
       </p>
       <p>
-        Email
-      </p>
-      <p>
-        Resume
+      Email: cdbbeezley@gmail.com
       </p>
     </div>
   );
