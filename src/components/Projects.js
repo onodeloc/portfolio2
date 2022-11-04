@@ -19,12 +19,6 @@ const Projects = () => (
       <p>
       <a href="https://github.com/onodeloc/newid">NFC-scanning React Native application</a>
       </p>
-      <p>
-      <a href="https://github.com/onodeloc/producerconsumer">Producer-consumer multithreading</a>
-      </p>
-      <p>
-      <a href="https://github.com/onodeloc/pagingwithtlb">Page table lookup with TLB caching</a>
-      </p>
     </div>
   );
   
