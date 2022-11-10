@@ -9,7 +9,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-const TITLE = 'Cole\'s website'
+const TITLE = 'Cole\'s Portfolio'
 
 function App() {
   return (
@@ -17,15 +17,16 @@ function App() {
       <Helmet>
         <title>{TITLE}</title>
       </Helmet>
-      <Nav />
-      <BrowserRouter>
+      {/* <Nav /> */}
+      <Contact />
+      <About />
+      {/* <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/about' element={<About />} />
+          <Route path='/' element={<About />} />
           <Route path='/projects' element={<Projects />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   );
 }

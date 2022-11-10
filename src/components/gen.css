@@ -1,20 +1,47 @@
 body {
-  background-color: rgb(255, 254, 242);
+  background-color: rgb(245, 245, 245);
 }
 
 a {
-  color: #7b91c7;
+  color: #000000;
+  font-family: "Garamond";
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 54px;
+}
+
+big {
+  color: #000000;
+  font-family: "Garamond";
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 54px;
 }
 
 h1 {
-  color: rgb(16, 15, 8);
-  margin-left: 20px;
+  font-family: "Georgia";
+  color: rgb(0, 0, 0);
+  margin-left: 15%;
 }
 
 p {
-  color: rgb(34, 32, 21);
-  margin-left: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(32, 32, 32);
+  margin-left: 50px;
+}
+
+
+#two {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(32, 32, 32);
+  margin-left: 15%;
+  inline-size: 350px;
+  overflow-wrap: break-word;
+  line-height: 20pt;
+}
+
+h2 {
+  font-family: "Georgia", Times, serif;
+  color: rgb(32, 32, 32);
+  margin-left: 0px;
 }

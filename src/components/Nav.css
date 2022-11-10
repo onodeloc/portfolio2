@@ -1,11 +1,12 @@
 .topnav {
-  background-color: rgb(62, 62, 62);
+  background-color: rgb(117, 117, 117);
   overflow: hidden;
 }
 
 .topnav a {
+  font-family: "Times New Roman", Times, serif;
   float: left;
-  color: #f2f2f2;
+  color: #ffffff;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -13,7 +14,7 @@
 }
 
 .topnav a:hover {
-  background-color: rgb(158, 158, 158);
+  background-color: rgb(174, 174, 174);
   color: black;
 }
 
