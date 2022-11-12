@@ -73,6 +73,7 @@ body {
 .self {
   height: 300px;
   width: auto;
+  max-width: 50%;
   object-fit: cover;
   border-radius: 12px;
   flex-shrink:0;
