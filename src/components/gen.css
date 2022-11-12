@@ -71,7 +71,7 @@ body {
 }
 
 .self {
-  height: 300px;
+  max-height: 300px;
   width: auto;
   max-width: 50%;
   object-fit: cover;
