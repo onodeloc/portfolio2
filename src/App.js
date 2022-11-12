@@ -6,7 +6,7 @@ import { Helmet } from 'react-helmet'
 // import Nav from "./components/Nav";
 // import Home from "./components/Home";
 import About from "./components/About";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 const TITLE = 'Cole\'s Portfolio'
@@ -20,6 +20,7 @@ function App() {
       {/* <Nav /> */}
       <Contact />
       <About />
+      <Projects />
       {/* <BrowserRouter>
         <Routes>
           <Route path='/' element={<About />} />

@@ -2,11 +2,18 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
-a {
-  font-family: "Garamond";
+#contact-padding {
   padding: 14px 16px;
-  font-size: 54px;
 }
+
+a {
+  padding: 14px 16px;
+  
+}
+
+a.change:link {color:#2e315f;text-decoration:none;}
+a.change:visited {color:#0000ff;text-decoration:none;}
+a.change:hover {text-decoration:underline;}
 
 big {
   padding: 14px 20px;
@@ -15,10 +22,9 @@ big {
 
 
 
-p {
+#header {
   font-family: "Times New Roman", Times, serif;
   color: rgb(32, 32, 32);
-  margin-left: 50px;
 }
 
 h1 {
@@ -27,28 +33,47 @@ h1 {
   color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
-  margin-left: 30%; 
+  margin-left: 0%; 
 }
 
-#container {
+body {
+  font-family: "Times New Roman", Times, serif;
+  padding: 0 16px;
+  max-width: 900px;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
-  margin-left: 25%; 
+  flex-direction: column;
 }
 
-#container p {
-  margin-right: 1em;
+#about-me {
+  padding: 16px;
+  display: block;
 }
 
-#container img {
-  margin-left: 2em;
+.about-me-container {
+  display: flex;
 }
+
+
+.about-me-text-container {
+  margin-right: 16px;
+  display: block;
+}
+
 
 #two {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
   color: rgb(32, 32, 32);
-  inline-size: 20%;
+  inline-size: 80%;
   overflow-wrap: break-word;
   line-height: 26pt;
+}
+
+.self {
+  height: 300px;
+  width: auto;
+  object-fit: cover;
+  border-radius: 12px;
+  flex-shrink:0;
 }

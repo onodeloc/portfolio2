@@ -2,24 +2,26 @@ import React from "react";
 import "./gen.css";
 
 const Projects = () => (
-    <div>
-      <h1 className="title is-1">Projects</h1>
-      <p>
-        I have experience with Java, C++, C, Python, Typescript, Javascript, and HTML/CSS.
-      </p>
-      <p>
-        Here are some of the projects in which I'll be listing these skills.
-      </p>
-      <p>
-      <a href="https://github.com/onodeloc/portfolio2">This website</a>
-      </p>
-      <p>
-      <a href="https://github.com/onodeloc/UnityGame">3D Game Development</a>
-      </p>
-      <p>
-      <a href="https://github.com/onodeloc/newid">NFC-scanning React Native application</a>
-      </p>
+
+  <body>
+    <div id='about-me'>
+      <h1>Projects</h1>
+      <div class='about-me-container'>
+        <div id='about-me-text-container'>
+          <p id="two">
+            I have experience with Java, C++, C, Python, Typescript, Javascript, and HTML/CSS.
+            Here are some of the projects in which I've used these skills. <br></br></p>
+          <p id="two">
+          – <a class="change" href="https://github.com/onodeloc/portfolio2">This website</a><br></br>
+          – <a class="change" href="https://github.com/onodeloc/UnityGame">3D Game Development</a><br></br>
+          – <a class="change" href="https://github.com/onodeloc/newid">NFC-scanning React Native application</a>
+          </p>
+
+        </div>
+        {/* <img class="self" src="/images/headshot2.jpg" alt="" /> */}
+      </div>
     </div>
-  );
-  
-  export default Projects;
+  </body>
+);
+
+export default Projects;
