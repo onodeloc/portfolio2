@@ -1,6 +1,6 @@
 ## About portfolio2
 
-![]([image.png](https://i.imgur.com/ZldmhT4.png)))
+<img width="600" alt="chrome_2022-11-12_13-22-46" src="https://user-images.githubusercontent.com/62979419/201495224-506c3b21-3576-43a7-bbb8-1458bf52aa91.png">
 
 This is demo version of an interactive website I'm creating to display what I'm coding in more depth. It's available at any time at [onodeloc.com](onodeloc.com).
 
