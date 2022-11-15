@@ -13,8 +13,7 @@ const Projects = () => (
             Here are some of the projects in which I've used these skills. <br></br></p>
           <p id="two">
           – <a class="change" href="https://github.com/onodeloc/portfolio2">This website</a><br></br>
-          – <a class="change" href="https://github.com/onodeloc/UnityGame">3D Game Development</a><br></br>
-          – <a class="change" href="https://github.com/onodeloc/newid">NFC-scanning React Native application</a>
+          – <a class="change" href="https://onodeloc.com/rain">A rain application!</a><br></br>
           </p>
 
         </div>
