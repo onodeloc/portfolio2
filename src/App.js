@@ -8,7 +8,6 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import Rain from "./components/Rain";
 
 const TITLE = 'Cole\'s Portfolio'
 
@@ -29,7 +28,6 @@ function App() {
           <About/>
           <Projects/>
           </>}/>
-          <Route path="/rain" element={<><Rain /></>}/>
         </Routes>
       </BrowserRouter>
     </>
