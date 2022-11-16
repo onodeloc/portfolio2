@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import PageNotFound from "./components/PageNotFound";
 
 const TITLE = 'Cole\'s Portfolio'
 
@@ -28,6 +29,7 @@ function App() {
           <About/>
           <Projects/>
           </>}/>
+          <Route path="*" element={<><PageNotFound/></>}/>
         </Routes>
       </BrowserRouter>
     </>
