@@ -2,7 +2,7 @@
 
 <img width="600" alt="chrome_2022-11-12_13-22-46" src="https://i.imgur.com/We2g5HG.png">
 
-This is an interactive website I'm creating to display what I'm coding in more depth. It was built using Node.js and React.
+This is an interactive website I'm creating to display what I'm coding in more depth. It was built using JavaScript, Node.js and React.
 
 It's available at any time at [onodeloc.com](https://onodeloc.com/).
 
