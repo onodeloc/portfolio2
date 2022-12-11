@@ -14,7 +14,7 @@ const Projects = () => (
           <p id="two">
           – <a class="change" href="https://github.com/onodeloc/portfolio2">This website: Built using Node.js and React</a><br></br>
           – <a class="change" href="https://github.com/onodeloc/rain">Rain: A Next.js project to tell you if it's raining</a><br></br>
-          – <a class="change" href="https://github.com/onodeloc/knightsbane">KnightsBane: A C# Unity game</a><br></br>
+          – <a class="change" href="https://onodeloc.itch.io/knightsbane">KnightsBane: A C# Unity game, available to play!</a><br></br>
           {/* – <a class="change" href="https://onodeloc.com/rain">A rain application!</a><br></br> */}
           </p>
 
